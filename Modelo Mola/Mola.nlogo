@@ -3,7 +3,7 @@ to setup
   clear-all
   crt 1
   set posi (k * 0.04)
-  set cont massa
+  set cont massa + 5
   set inicial 10
   gravidade-planeta
   ask turtles [ setup-obj ]
@@ -56,7 +56,7 @@ to mover
   [
      
     if cont > 0.4 [ 
-    	set cont cont - 0.2
+    	set cont cont - 0.4
     ]
     set pen-size cont
     
