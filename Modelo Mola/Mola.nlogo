@@ -51,7 +51,6 @@ to monitorar
 end
 
 to mover
-  pen-down
   let aux ycor
   ifelse  aux > -5
   [
@@ -71,7 +70,7 @@ to setup-obj
   set size massa
   setxy 0 15
   set color white
-
+  pen-down
 end
 
 to setup-patches
