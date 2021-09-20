@@ -55,6 +55,7 @@ to mover
   ifelse  aux > -5
   [
      
+
     if cont > 0.4 [ 
     	set cont cont - 0.4
     ]
