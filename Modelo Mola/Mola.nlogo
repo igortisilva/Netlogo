@@ -55,7 +55,7 @@ to mover
   ifelse  aux > -5
   [
     set pen-size cont
-    set cont cont - 0.5
+    set cont cont - 0.01
     setxy 0 ycor - posi * 0.1
     set deformacao massa * g / k
     set f  -1 * k * deformacao
