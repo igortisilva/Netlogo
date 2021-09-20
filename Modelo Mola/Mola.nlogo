@@ -54,8 +54,12 @@ to mover
   let aux ycor
   ifelse  aux > -5
   [
+     
+    if cont > 0.4 [ 
+    	set cont cont - 0.2
+    ]
     set pen-size cont
-    set cont cont - 0.01
+    
     setxy 0 ycor - posi * 0.1
     set deformacao massa * g / k
     set f  -1 * k * deformacao
@@ -130,7 +134,7 @@ SLIDER
 173
 massa
 massa
-0
+1
 20
 20.0
 1
