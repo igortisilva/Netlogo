@@ -58,6 +58,9 @@ to mover
     if cont > 0.4 [ 
     	set cont cont - 0.4
     ]
+    if cont < 0.4 [
+      set cont 0.4
+    ]
     set pen-size cont
     
     setxy 0 ycor - posi * 0.1
