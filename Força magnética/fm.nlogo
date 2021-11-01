@@ -13,6 +13,7 @@ to go
   ask turtle 0 [
     fd v * 0.00001
   ]
+  tick
 end
 
 to setup-turtles
