@@ -11,7 +11,7 @@ end
 to go
   set Fm q * v * B * sin A0
   ask turtle 0 [
-    fd v * 0.00001
+    fd v * 0.001
   ]
   tick
 end
