@@ -3,7 +3,7 @@ turtles-own [num centrox centroy]
 
 to setup
   set r_ R
-  set a 0.0001
+  set a 0.001
 
   clear-all
   setup_t
@@ -30,7 +30,7 @@ to go
     ask turtle 2 [show-turtle]
   ]
   ask turtles [mover]
-  set a a + (0.0001 * v0) + (0.0001 * aceleracao)
+  set a a + (0.001 * v0) + (0.001 * aceleracao)
   set a_c (v0 * v0)/ R
   set periodo (2 * pi * R) / v0
   set frequencia 1 / periodo
@@ -59,7 +59,7 @@ to mover
   if num = 2 [
     fd 5
   ]
-  rt (-0.0001 * aceleracao) + -0.0001 * v0
+  rt (-0.001 * aceleracao) + -0.001 * v0
 end
 to setup_t
 
