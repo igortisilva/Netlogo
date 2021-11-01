@@ -41,7 +41,7 @@ to go
     set w0 2 * pi / periodo
   ]
   set v_a 2 * pi / periodo
-
+  tick
 end
 to mover
   if num = 0 [
